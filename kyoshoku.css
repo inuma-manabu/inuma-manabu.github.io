@@ -23,8 +23,8 @@ header {
 }
 footer {
     margin-top: auto;
-    color: #99999;
-    background-color: #666666;
+    /*color: #99999;*/    
+    background-color: #fff;
 }
 /* ボタン全体 */
 .flowbtn10{
