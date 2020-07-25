@@ -18,12 +18,7 @@ header {
    align-items: center;
 }
 .main-visual {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 100vh;
-   background: url("../math-1500720_1280.jpg") top center / cover no-repeat;
-}
+      background: url("https://github.com/inuma-manabu/inuma-manabu.josai.math.kyoshoku.io/math-1500720_1280.jpg") 
 
 footer {
     background-color: transparent;
@@ -63,7 +58,7 @@ nav {
    justify-content: center;
    align-items: center;
    height: 100vh;
-   background: url("https://github.com/inuma-manabu/inuma-manabu.josai.math.kyoshoku.io/math-1500720_1280.jpg') top center / cover no-repeat;
+   background: url("https://github.com/inuma-manabu/inuma-manabu.josai.math.kyoshoku.io/math-1500720_1280.jpg");
 }
 h2 {
    margin: 0;
