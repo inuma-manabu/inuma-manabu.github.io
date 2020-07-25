@@ -1,13 +1,51 @@
 <html>
 <head>
-<title>城西大学数学科の教職課程</title>
-<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+ <meta charset="utf-8">
+   <meta name="robots" content="noindex,nofollow">
+   <title>城西大学数学科の教職課程</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="kyoshoku.css">
+   <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+   <script>
+   $(function() {
+      const hum = $('#hamburger, .close')
+      const nav = $('.sp-nav')
+      hum.on('click', function(){
+         nav.toggleClass('toggle');
+      });
+   });
+   </script>
 </head>
 <body>
 <header>
+      <h1>
+         城西大学数学科の教職課程（数学科）
+       </h1>
+      <nav class="pc-nav">
+         <ul>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">COMPANY</a></li>
+            <li><a href="#">CONTACT</a></li>
+         </ul>
+      </nav>
+      <nav class="sp-nav">
+         <ul>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">COMPANY</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li class="close"><span>閉じる</span></li>
+         </ul>
+      </nav>
+      <div id="hamburger">
+         <span></span>
+      </div>
+   </header>
+    
     <h1>
-        城西大学数学科の教職課程（数学科）
+        
     </h1>
     <nav class="pc-nav">
        <div class="sample"> 
@@ -19,6 +57,10 @@
         </ul>
          </div>
     </nav>
+    <div id="hamburger">
+      <span></span>
+   </div>
+    
 </header>
 <div class="main-visual">
 <h3>履修方法</h3>
