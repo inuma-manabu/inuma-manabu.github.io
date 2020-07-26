@@ -24,22 +24,20 @@ div#body{
 
 .foot-wrap {
      font-size: 80%;
-     text-align: center;
+     /*text-align: center;*/
 }
 
-.foot-wrap .menu-left, .menu-center, .menu-right {
+.foot-wrap .menu-center, .menu-right {
     display: inline-block;
 　　vertical-align: top; 
     width: 33%;
     margin: 10px auto;
 }
-
 .foot-wrap ul {
     list-style: none;
     padding: 0;
-    line-height:40px;
+    /*line-height:40px;*/
 }
-
 a {	
    text-decoration: none;
    font-weight: bold;
