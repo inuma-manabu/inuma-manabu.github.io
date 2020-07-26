@@ -23,6 +23,7 @@ div#body{
 }
 
 .foot-wrap {
+     font-size: 80%;
      text-align: center;
 }
 
@@ -31,7 +32,6 @@ div#body{
 　　vertical-align: top; 
     width: 50%;
     margin: 50px auto;
-	
 }
 
 .foot-wrap ul {
